@@ -88,7 +88,7 @@ public class ButtonFloat extends Button{
 		// Set Ripple Color
 		// Color by resource
 		int rippleColor = attrs.getAttributeResourceValue(MATERIALDESIGNXML,
-				"rippleColor", -1);
+				"mdRippleColor", -1);
 		if (rippleColor != -1) {
 			setRippleColor(getResources().getColor(rippleColor));
 		} else {
